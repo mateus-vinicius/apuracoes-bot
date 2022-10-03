@@ -4,10 +4,10 @@ import time
 from scripts.get_votes import get_votes
 
 api = tweepy.Client(
-    consumer_key='',
-    consumer_secret='',
-    access_token='',
-    access_token_secret=''
+    consumer_key='CONSUMER_KEY',
+    consumer_secret='CONSUMER_SECRET_KEY',
+    access_token='ACCESS_TOKEN',
+    access_token_secret='ACCESS_SECRET_KEY'
 )
 
 
